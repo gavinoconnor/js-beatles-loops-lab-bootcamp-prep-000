@@ -19,7 +19,7 @@ var johnLennonFacts = function(factsArray) {
   var i = 0
 
   while (i < factsArray.length) {
-    facts.push(`${facts[i]}!!!`)
+    facts.push(`${factsArray[i]}!!!`)
     i++
   }
   return facts
