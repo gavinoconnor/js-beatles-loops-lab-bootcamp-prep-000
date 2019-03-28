@@ -14,7 +14,14 @@ var theBeatlesPlay = function(musicians, instruments) {
 // Use a while loop to loop over the facts array and add `"!!!"` to the end of
 // every fact. The function should return an array of strings with exclamation
 // points.
-
+var johnLennonFacts = function(facts) {
+  var facts = []
+  while (facts < facts.length) {
+    facts++
+    facts.push(`!!!`)
+  }
+  return facts
+}
 
 // + Create a function `iLoveTheBeatles` which accepts a number as a parameter. The
 // body of the function should create a variable that stores an empty array. Then,
