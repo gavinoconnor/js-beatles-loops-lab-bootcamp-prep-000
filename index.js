@@ -4,7 +4,7 @@
 // which loops over the array of musicians.
 var theBeatlesPlay = function(musicians, instruments) {
   var Beatles = []
-  for (var i = 0; i < Beatles.length; i++) {
+  for (var i = 0; i < 4; i++) {
     Beatles.push(`${musicians[i]} plays the ${instruments[i]}`)
   }
   return Beatles
